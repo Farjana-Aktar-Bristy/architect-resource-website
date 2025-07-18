@@ -24,6 +24,9 @@
 .dark-02 {
   color: rgba(66, 66, 66, 1);
 }
+.dark-03 {
+  color: rgba(114, 114, 114, 1);
+}
 /* Nav Styles Section */
 
 .navbar-container {
@@ -62,4 +65,39 @@
   width: 100%;
   margin: 30px 0;
   border-radius: 10px;
+}
+
+/* Features Styles Section */
+
+.features-container {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  margin: 80px 300px;
+}
+.featured-image {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.featured-image img {
+  width: 340px;
+  height: 340px;
+  border-radius: 10px;
+}
+.featured-section {
+  width: 530px;
+}
+#quick-list {
+  font-weight: 500;
+  font-size: 45px;
+}
+#our {
+  font-weight: bold;
+  font-size: 45px;
+}
+#features {
+  color: rgba(255, 144, 14, 1);
+  font-weight: bold;
+  font-size: 45px;
 }
